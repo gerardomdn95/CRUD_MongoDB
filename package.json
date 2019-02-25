@@ -1,0 +1,21 @@
+{
+  "name": "crud-mongodb",
+  "version": "1.0.0",
+  "description": "CRUD Mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
